@@ -10,7 +10,11 @@ const ResultsView = () => {
           Здесь находятся все доступные результаты для каждого теста.
         </h2>
       </section>
-      <section className={'my-[var(--section-spacing)] grid grid-cols-3 gap-6'}>
+      <section
+        className={
+          'my-[var(--section-spacing)] grid gap-6 md:grid-cols-2 lg:grid-cols-3'
+        }
+      >
         {results.map((result) => {
           return <ResultCard {...result} />
         })}
