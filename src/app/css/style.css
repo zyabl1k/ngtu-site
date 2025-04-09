@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --header-height: 96px;
+        --section-spacing: 50px;
+    }
+
+    body {
+        @apply overflow-x-hidden bg-root-main font-roboto-flex
+    }
+
+    ol, ul, nav {
+        @apply list-none
+    }
+
+    .wrapper {
+        @apply md:px-12 px-8
+    }
+}
+
+@font-face {
+    font-family: 'RobotoFlex';
+    font-style: normal;
+    font-weight: 100 1000;
+    font-display: swap;
+    src: url('/fonts/roboto-flex/RobotoFlex.ttf')
+    format('truetype');
+}
