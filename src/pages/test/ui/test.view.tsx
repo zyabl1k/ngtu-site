@@ -1,9 +1,10 @@
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import NotFoundView from '@/pages/not-found/ui/not-found.view.tsx'
 import { tests } from '@/shared/constants'
 import { useEffect, useState } from 'react'
 import { ITestQuestion } from '@types'
 import { QuestionCard } from '@/features/manage-tests'
+import { __APPLICATION__ } from '@/shared/config'
 
 interface IAnswerStateProps {
   question_id: number
@@ -12,6 +13,7 @@ interface IAnswerStateProps {
 
 const TestView = () => {
   const { id } = useParams()
+  const navigate = useNavigate()
   const [step, setStep] = useState<number>(1)
   const [nowQuestion, setNowQuestion] = useState<ITestQuestion | undefined>()
   const [answers, setAnswers] = useState<IAnswerStateProps[]>([])
@@ -45,10 +47,32 @@ const TestView = () => {
     }
 
     if (totalQuestions > step) setStep(step + 1)
-    else if (totalQuestions === step) handleEndTest()
+    else if (totalQuestions === step) {
+      const result = handleEndTest()
+      navigate(`/result/${result}`)
+    }
   }
 
-  const handleEndTest = () => {}
+  const handleEndTest = () => {
+    const userAnswerIds = answers.map((answer) => answer.answer_id)
+
+    const resultsWithMatches = test.results.map((result) => {
+      const matches = result.requiredAnswers.filter((answerId) =>
+        userAnswerIds.includes(answerId)
+      ).length
+
+      return {
+        ...result,
+        matches,
+      }
+    })
+
+    const bestResult = resultsWithMatches.reduce((prev, current) =>
+      prev.matches > current.matches ? prev : current
+    )
+
+    return bestResult.id
+  }
 
   const handlePrevStep = () => {
     if (step !== 1) setStep(step - 1)

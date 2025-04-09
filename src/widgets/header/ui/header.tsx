@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <header
       className={
-        'wrapper fixed flex w-full items-center justify-between gap-6 bg-white/30 py-4 backdrop-blur-md'
+        'wrapper fixed flex w-full items-center justify-between gap-6 bg-white/30 py-3 backdrop-blur-md'
       }
     >
       <LogoUI />
@@ -17,7 +17,7 @@ export const Header = () => {
             <NavLink
               className={({ isActive }) =>
                 cn(
-                  'text-nowrap transition-all hover:font-bold',
+                  'text-nowrap font-medium transition-all hover:font-bold',
                   isActive && 'font-bold'
                 )
               }

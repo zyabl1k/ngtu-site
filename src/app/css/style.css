@@ -21,6 +21,12 @@
     }
 }
 
+@layer utilities {
+    .snap-scroll-html {
+        scroll-snap-type: y mandatory
+    }
+}
+
 @font-face {
     font-family: 'RobotoFlex';
     font-style: normal;

@@ -1,11 +1,12 @@
 import { IQuestion, ITestResult, ITest } from '@types'
 
-const results: ITestResult[] = [
+export const results: ITestResult[] = [
   {
     id: 1,
     test_id: 1,
     title: 'Человек — Природа',
     description: '-',
+    announce: 'Человек — Природа анонс',
     requiredAnswers: [1, 6, 11, 19, 21, 26, 31, 39],
   },
   {
@@ -13,6 +14,7 @@ const results: ITestResult[] = [
     test_id: 1,
     title: 'Человек — Техника',
     description: '-',
+    announce: 'Человек — Техника анонс',
     requiredAnswers: [2, 7, 14, 17, 22, 27, 34, 37],
   },
   {
@@ -20,6 +22,7 @@ const results: ITestResult[] = [
     test_id: 1,
     title: 'Человек — Человек',
     description: '-',
+    announce: 'Человек — Человек анонс',
     requiredAnswers: [3, 8, 12, 15, 23, 28, 32, 35],
   },
   {
@@ -27,6 +30,7 @@ const results: ITestResult[] = [
     test_id: 1,
     title: 'Человек — Знаковая система',
     description: '-',
+    announce: 'Человек — Знаковая система анонс',
     requiredAnswers: [4, 9, 18, 20, 24, 29, 38, 40],
   },
   {
@@ -34,6 +38,7 @@ const results: ITestResult[] = [
     test_id: 1,
     title: 'Человек — Художественный образ',
     description: '-',
+    announce: 'Человек — Художественный образ анонс',
     requiredAnswers: [5, 10, 13, 16, 25, 30, 33, 36],
   },
 ]

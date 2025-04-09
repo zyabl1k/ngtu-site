@@ -13,6 +13,10 @@ export const navigation: INavigation[] = [
     link: routes.tests,
   },
   {
+    label: 'Результаты',
+    link: routes.results,
+  },
+  {
     label: 'Команда проекта',
     link: routes.command,
   },

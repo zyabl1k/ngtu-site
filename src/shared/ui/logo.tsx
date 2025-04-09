@@ -8,7 +8,7 @@ export const LogoUI = () => {
       className={'flex items-center gap-2'}
       to={__APPLICATION__.routes.origin}
     >
-      <img width={64} src={Logo} alt={'НГТУ'} />
+      <img width={50} src={Logo} alt={'НГТУ'} />
       <div className={'text-lg font-bold leading-4'}>
         NETI
         <br />

@@ -9,9 +9,7 @@ const MainView = () => {
           Помощь с выбором профессии от НГТУ НЭТИ
         </h2>
       </section>
-      <section
-        className={'wrapper mb-[var(--section-spacing)] grid grid-cols-2'}
-      >
+      <section className={'wrapper grid h-screen grid-cols-2 items-center'}>
         <div></div>
         <div className={'flex flex-col gap-4'}>
           <div className={'text-4xl font-black'}>Миссия проекта</div>

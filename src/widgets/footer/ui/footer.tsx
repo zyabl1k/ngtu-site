@@ -6,7 +6,7 @@ export const Footer = () => {
     <footer className={'mx-2'}>
       <div
         className={
-          'bg-root-red-main flex flex-wrap items-start justify-between gap-4 rounded-3xl p-10 text-white'
+          'flex flex-wrap items-start justify-between gap-4 rounded-3xl bg-root-red-main p-10 text-white'
         }
       >
         <div className={'text-2xl font-black'}>
@@ -33,13 +33,9 @@ export const Footer = () => {
             <PhoneIncoming color={'#ffffff'} size={24} />
             <div>+7 (913) 236 47-16</div>
           </Link>
-          <div
-            className={
-              'flex items-center gap-1 transition-opacity hover:opacity-75'
-            }
-          >
+          <div className={'flex items-center gap-1'}>
             <MapPin color={'#ffffff'} size={24} />
-            <div>
+            <div className={'max-w-[350px]'}>
               Новосибирская обл., г. Новосибирск, пр-кт Карла Маркса, д. 20
             </div>
           </div>

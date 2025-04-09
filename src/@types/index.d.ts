@@ -25,7 +25,9 @@ interface CoreConfiguration {
 interface __APPLICATION_CONFIG__ {
   routes: Readonly<{
     origin: string
+    results: string
     tests: string
+    result: string
     test: string
     command: string
     help: string
@@ -41,6 +43,7 @@ interface ITestResult {
   id: number
   test_id: number
   title: string
+  announce: string
   description: string
   requiredAnswers: number[]
 }
