@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Envelope, MapPin, PhoneIncoming } from '@phosphor-icons/react'
+import { Envelope, MapPin } from '@phosphor-icons/react'
 
 export const Footer = () => {
   return (

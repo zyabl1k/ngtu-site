@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { AnimateBg } from '@/shared/ui/animate-bg.tsx'
-import animationData from '/lottie/mission'
+import animationData from '../../../../lottie/mission.json'
 import Lottie from 'react-lottie'
 
 const MainView = () => {

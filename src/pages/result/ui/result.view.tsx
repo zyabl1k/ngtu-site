@@ -42,11 +42,12 @@ const ResultView = () => {
           className={'mt-6 grid gap-x-12 gap-y-8 md:grid-cols-2 lg:grid-cols-3'}
         >
           {result.links.map((link, index) => (
-            <div>
+            <div key={index}>
               <div className={'text-xl font-semibold'}>{link.title}:</div>
               <div className={'mt-2 flex flex-col gap-2'}>
                 {link.blocks.map((block, index) => (
                   <Link
+                    key={index}
                     className={
                       'w-fit rounded-md bg-root-red-main p-2 text-white transition hover:opacity-80'
                     }
