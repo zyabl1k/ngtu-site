@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import { ITestQuestion } from '@types'
 import { QuestionCard } from '@/features/manage-tests'
 import { __APPLICATION__ } from '@/shared/config'
+import { Preloader } from '@/widgets/preloader'
 
 interface IAnswerStateProps {
   question_id: number
@@ -35,7 +36,7 @@ const TestView = () => {
   }, [step, setStep])
 
   if (!nowQuestion) {
-    return <NotFoundView />
+    return <Preloader />
   }
 
   const handleNextStep = () => {

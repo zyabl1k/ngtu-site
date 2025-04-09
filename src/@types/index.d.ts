@@ -39,6 +39,14 @@ interface __APPLICATION_CONFIG__ {
  * @Tests
  */
 
+interface ITestResultLink {
+  title: string
+  blocks: {
+    description: string
+    link: string
+  }[]
+}
+
 interface ITestResult {
   id: number
   test_id: number
@@ -46,6 +54,7 @@ interface ITestResult {
   announce: string
   description: string
   requiredAnswers: number[]
+  links: ITestResultLink[]
 }
 
 interface IQuestion {

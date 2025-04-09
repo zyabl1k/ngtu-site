@@ -8,7 +8,11 @@ const TestsView = () => {
         <h1 className={'text-4xl font-black'}>Тесты</h1>
         <h2 className={'italic'}>Здесь находятся все доступные тесты.</h2>
       </section>
-      <section className={'my-[var(--section-spacing)] grid grid-cols-3 gap-6'}>
+      <section
+        className={
+          'my-[var(--section-spacing)] grid gap-6 md:grid-cols-2 lg:grid-cols-3'
+        }
+      >
         {tests.map((test) => {
           return <TestCard {...test} />
         })}

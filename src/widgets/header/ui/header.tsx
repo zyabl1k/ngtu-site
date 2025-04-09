@@ -7,18 +7,18 @@ export const Header = () => {
   return (
     <header
       className={
-        'wrapper fixed flex w-full items-center justify-between gap-6 bg-white/30 py-3 backdrop-blur-md'
+        'wrapper fixed z-50 flex w-full items-center justify-between gap-6 bg-white/30 py-3 backdrop-blur-md'
       }
     >
       <LogoUI />
-      <nav className={'flex flex-wrap items-center gap-4'}>
+      <nav className={'flex flex-wrap items-center justify-end gap-x-4'}>
         {navigation.map((item, index) => (
           <li key={index}>
             <NavLink
               className={({ isActive }) =>
                 cn(
                   'text-nowrap font-medium transition-all hover:font-bold',
-                  isActive && 'font-bold'
+                  isActive && 'font-bold underline'
                 )
               }
               to={item.link}

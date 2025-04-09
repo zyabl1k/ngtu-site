@@ -1,5 +1,6 @@
 import React from 'react'
 import '@/app/css/style.css'
+import '@/app/css/animation.css'
 import { LoadingApp } from '@/app/modules/loading.app.tsx'
 import { Core } from '@/app/core'
 import { App } from '@/app/app.tsx'
