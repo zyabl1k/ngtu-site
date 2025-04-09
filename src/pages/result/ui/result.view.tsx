@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import NotFoundView from '@/pages/not-found/ui/not-found.view.tsx'
-import { results, tests } from '@/shared/constants'
+import { results } from '@/shared/constants'
 
 const ResultView = () => {
   const { id } = useParams()
