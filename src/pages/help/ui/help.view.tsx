@@ -12,7 +12,7 @@ const HelpView = () => {
           Мы уверены, что у тебя все получится :)
         </h2>
         <div className={'mt-4'}>
-          <div>Но по вопросам обращайся сюда:</div>
+          <div>Но по всем вопросам обращайся сюда:</div>
           <Link
             className={
               'flex items-center gap-1 transition-opacity hover:opacity-75'

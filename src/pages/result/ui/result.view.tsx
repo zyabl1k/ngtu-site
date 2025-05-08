@@ -51,6 +51,7 @@ const ResultView = () => {
                     className={
                       'w-fit rounded-md bg-root-red-main p-2 text-white transition hover:opacity-80'
                     }
+                    target={'_blank'}
                     to={block.link}
                   >
                     {block.description}

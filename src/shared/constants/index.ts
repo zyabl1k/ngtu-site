@@ -54,7 +54,7 @@ export const results: ITestResult[] = [
           },
           {
             description: 'Техносферная безопасность',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/gdu/study_activity/specs/spec_info?id_facultet_okso=3143&id_training_form=1&dist=0&id_spec=1044',
           },
         ],
       },
@@ -63,7 +63,7 @@ export const results: ITestResult[] = [
         blocks: [
           {
             description: 'Химическая технология',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/hht/study_activity/specs/spec_info?id_facultet_okso=4468&id_training_form=1&dist=0&id_spec=6605',
           },
         ],
       },
@@ -72,7 +72,7 @@ export const results: ITestResult[] = [
         blocks: [
           {
             description: 'Техносферная безопасность',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/bt/study_activity/specs/spec_info?id_facultet_okso=3139&id_training_form=1&dist=0&id_spec=1056',
           },
         ],
       },
@@ -143,7 +143,7 @@ export const results: ITestResult[] = [
         blocks: [
           {
             description: 'Прикладная механика',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/pla/study_activity/specs/spec_info?id_facultet_okso=3073&id_training_form=1&dist=0&id_spec=6621',
           },
           {
             description: 'Техническая физика',
@@ -151,10 +151,10 @@ export const results: ITestResult[] = [
           },
           {
             description: 'Баллистика и гидроаэродинамика (ссылку на кафедру)',
-            link: 'https://ciu.nstu.ru/kaf/agd',
+            link: 'https://ciu.nstu.ru/kaf/agd/study_activity/specs/spec_info?id_facultet_okso=2969&id_training_form=1&dist=0&id_spec=6622',
           },
           {
-            description: 'Авиастроение',
+            description: 'Авиастроение (ссылка на факультет)',
             link: 'https://en.nstu.ru/education/aircraft-faculty/',
           },
           {
@@ -167,7 +167,7 @@ export const results: ITestResult[] = [
             link: 'https://ciu.nstu.ru/kaf/avt/study_activity/specs/spec_info?id_facultet_okso=3163&id_training_form=1&dist=0&id_spec=1061',
           },
           {
-            description: 'Боеприпасы и взрыватели только для граждан России',
+            description: 'Боеприпасы и взрыватели (только для граждан России)',
             link: 'https://ciu.nstu.ru/kaf/gdu/study_activity/specs/spec_info?id_facultet_okso=2977&id_training_form=1&dist=0&id_spec=1042',
           },
           {
@@ -191,8 +191,8 @@ export const results: ITestResult[] = [
           },
           {
             description:
-              'Конструкторско-технологическое обеспечениемашиностроительных производств',
-            link: 'https://ciu.nstu.ru/kaf/ptm/study_activity/specs/spec_info?id_facultet_okso=2961&id_training_form=1&dist=0&id_spec=1842',
+              'Конструкторско-технологическое обеспечение машиностроительных производств',
+            link: 'https://ciu.nstu.ru/kaf/ptm/study_activity/specs/spec_info?id_facultet_okso=3019&id_training_form=1&dist=0&id_spec=8403',
           },
           {
             description:
@@ -206,21 +206,21 @@ export const results: ITestResult[] = [
         blocks: [
           {
             description: 'Электроэнергетика и электротехника',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/em/study_activity/specs/spec_info?id_facultet_okso=3207&id_training_form=1&dist=0&id_spec=10322',
           },
           {
             description:
               'Автоматизация технологических процессов и производств',
-            link: '',
+            link: 'https://www.nstu.ru//entrance/enrollment_campaign/direction_info?id_facultet_okso=2959&id_training_form=1&id_spec=7007',
           },
           {
             description: 'Электроэнергетика и электротехника',
-            link: '',
+            link: 'https://www.nstu.ru//entrance/enrollment_campaign/direction_info?id_facultet_okso=3207&id_training_form=1&id_spec=10321',
           },
           {
             description:
               'Автоматизация технологических процессов и производств',
-            link: '',
+            link: 'https://www.nstu.ru//entrance/enrollment_campaign/direction_info?id_facultet_okso=5888&id_training_form=1&id_spec=8621',
           },
         ],
       },
@@ -229,23 +229,23 @@ export const results: ITestResult[] = [
         blocks: [
           {
             description: 'Радиотехника',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/rpirpu/study_activity/specs/spec_info?id_facultet_okso=3087&id_training_form=1&dist=0&id_spec=6620',
           },
           {
             description: 'Конструирование и технология электронных средств',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/ktrs/study_activity/specs/spec_info?id_facultet_okso=3013&id_training_form=1&dist=0&id_spec=1631',
           },
           {
             description: 'Электроника и наноэлектроника',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/ee/study_activity/specs/spec_info?id_facultet_okso=3199&id_training_form=1&dist=0&id_spec=1862',
           },
           {
             description: 'Нанотехнологии и микросистемная техника',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/ppime/study_activity/specs/spec_info?id_facultet_okso=3053&id_training_form=1&dist=0&id_spec=9281',
           },
           {
             description: 'Электроника и наноэлектроника',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/ppime/study_activity/specs/spec_info?id_facultet_okso=3199&id_training_form=1&dist=0&id_spec=1633',
           },
         ],
       },
@@ -254,7 +254,7 @@ export const results: ITestResult[] = [
         blocks: [
           {
             description: 'Лазерная техника и лазерные технологии',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/ls/study_activity/specs/spec_info?id_facultet_okso=3023&id_training_form=1&dist=0&id_spec=6664',
           },
         ],
       },
@@ -263,11 +263,11 @@ export const results: ITestResult[] = [
         blocks: [
           {
             description: 'Теплоэнергетика и теплотехника',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/tes/study_activity/specs/spec_info?id_facultet_okso=3928&id_training_form=2&dist=0&id_spec=7096',
           },
           {
             description: 'Электроэнергетика и электротехника',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/tes/study_activity/specs/spec_info?id_facultet_okso=3205&id_training_form=1&dist=0&id_spec=1057',
           },
         ],
       },
@@ -341,44 +341,44 @@ export const results: ITestResult[] = [
         blocks: [
           {
             description: 'Психология',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/pip/study_activity/specs/spec_info?id_facultet_okso=3083&id_training_form=1&dist=0&id_spec=7663',
           },
           {
-            description: 'Социология рекламы и связей с общественностью',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            description: 'Социология рекламы и связи с общественностью',
+            link: 'https://ciu.nstu.ru/kaf/simk/study_activity/specs/spec_info?id_facultet_okso=3111&id_training_form=1&dist=0&id_spec=7301',
           },
           {
             description: 'Социология управления и маркетинга',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/simk/study_activity/specs/spec_info?id_facultet_okso=3111&id_training_form=1&dist=0&id_spec=7621',
           },
           {
             description: 'Европейские исследования',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/moir/study_activity/specs/spec_info?id_facultet_okso=2981&id_training_form=1&dist=0&id_spec=2362',
           },
           {
             description: 'Азиатские исследования',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/moir/study_activity/specs/spec_info?id_facultet_okso=2981&id_training_form=1&dist=0&id_spec=2361',
           },
           {
             description: 'Конфликтменеджмент',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/sr/about/napravleniya_podgotovki/konfliktologiya_bakalavriat',
           },
           {
-            description: 'Организация и управления в сфере социальной работы',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            description: 'Организация и управление в сфере социальной работы',
+            link: 'https://ciu.nstu.ru/kaf/sr/about/napravleniya_podgotovki/socialnaya_rabota_bakalavriat',
           },
           {
-            description: 'Социология рекламы и связей с общественностью',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            description: 'Социология коммуникаций',
+            link: 'https://ciu.nstu.ru/kaf/simk/study_activity/specs/spec_info?id_facultet_okso=4397&id_training_form=1&dist=0&id_spec=6801',
           },
           {
             description: 'Организация управления в сфере социальной работы',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/sr/about/napravleniya_podgotovki/39.04.02_socialnaya_rabota_magistratura',
           },
           {
             description:
               'Психология личности и психологическое консультирование',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/pip/study_activity/specs/spec_info?id_facultet_okso=3083&id_training_form=1&dist=0&id_spec=7663',
           },
         ],
       },
@@ -386,17 +386,22 @@ export const results: ITestResult[] = [
         title: 'ФБ',
         blocks: [
           {
-            description: 'Менеджмент:\n•Маркетинг/ Управление бизнесом',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            description: 'Менеджмент (маркетинг)',
+            link: 'https://ciu.nstu.ru/kaf/mis/study_activity/specs/spec_info?id_facultet_okso=3049&id_training_form=1&dist=0&id_spec=1637',
+          },
+          {
+            description: 'Менеджмент (управление бизнесом)',
+            link: 'https://ciu.nstu.ru/kaf/opr/study_activity/specs/spec_info?id_facultet_okso=3049&id_training_form=1&dist=0&id_spec=8081',
           },
           {
             description:
-              'Управление бизнесом в сфере туризма, гостиничного дела и организации международных коммуникаций',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+              'Управление бизнесом в сфере туризма, гостиничного дела и организации международных коммуникаций (см. 5 колонка)',
+            link: 'https://www.fb.nstu.ru/abit/abit_all/bachelor?ysclid=mafe4ecc7641633212',
           },
           {
-            description: 'Управление туристским бизнесом (на английском языке)',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            description:
+              'Управление туристским бизнесом (на английском языке) (см. 9 колонка)',
+            link: 'https://www.fb.nstu.ru/abit/abit_all/bachelor?ysclid=mafe4ecc7641633212',
           },
         ],
       },
@@ -451,20 +456,20 @@ export const results: ITestResult[] = [
         blocks: [
           {
             description: 'Прикладная филология',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/filologii/study_activity/specs/spec_info?id_facultet_okso=3173&id_training_form=1&dist=0&id_spec=1636',
           },
           {
             description: 'Филологическое обеспечение журналистики',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/filologii/study_activity/specs/spec_info?id_facultet_okso=3173&id_training_form=1&dist=0&id_spec=7283',
           },
           {
             description:
               'Переводчик английского языка и русского жестового языка',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/iya_gf/study_activity/specs/spec_info?id_facultet_okso=3027&id_training_form=1&dist=0&id_spec=2381',
           },
           {
             description: 'Перевод и переводоведение',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/iya_gf/study_activity/specs/spec_info?id_facultet_okso=3027&id_training_form=1&dist=0&id_spec=1563',
           },
         ],
       },
@@ -472,25 +477,25 @@ export const results: ITestResult[] = [
         title: 'ФБ',
         blocks: [
           {
-            description: 'Экономика предприятий и инвестиций',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            description: 'Экономика предприятий и инвестиций (см. 1 колонка)',
+            link: 'https://www.fb.nstu.ru/abit/abit_all/bachelor?ysclid=mafe4ecc7641633212',
           },
           {
-            description: 'Финансы и аналитика бизнеса',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            description: 'Финансы и аналитика бизнеса (см. 2 колонка)',
+            link: 'https://www.fb.nstu.ru/abit/abit_all/bachelor?ysclid=mafe4ecc7641633212',
           },
           {
-            description: 'Логистика',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            description: 'Логистика (см. 3 колонка)',
+            link: 'https://www.fb.nstu.ru/abit/abit_all/bachelor?ysclid=mafe4ecc7641633212',
           },
           {
             description:
-              'Индустриальный менеджмент и технологическое предпринимательство',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+              'Индустриальный менеджмент и технологическое предпринимательство (см. 4 колонка)',
+            link: 'https://www.fb.nstu.ru/abit/abit_all/bachelor?ysclid=mafe4ecc7641633212',
           },
           {
-            description: 'Бизнес-управление производственными системами',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            description: 'Бизнес-информатика (см. 6 колонка)',
+            link: 'https://www.fb.nstu.ru/abit/abit_all/bachelor?ysclid=mafe4ecc7641633212',
           },
         ],
       },
@@ -499,28 +504,28 @@ export const results: ITestResult[] = [
         blocks: [
           {
             description: 'Программное обеспечение компьютерных систем и сетей',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/avt/study_activity/specs/spec_info?id_facultet_okso=2995&id_training_form=1&dist=0&id_spec=6610',
           },
           {
             description: 'Информационные системы в промышленности и бизнесе',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/ssod/study_activity/specs/spec_info?id_facultet_okso=3001&id_training_form=1&dist=0&id_spec=6741',
           },
           {
             description: 'Информационные технологии в цифровой экономике',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/asu/study_activity/specs/spec_info?id_facultet_okso=5771&id_training_form=1&dist=0&id_spec=7661',
           },
           {
             description: 'Технологии разработки программного обеспечения',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/vt/study_activity/specs/spec_info?id_facultet_okso=3075&id_training_form=1&dist=0&id_spec=6609',
           },
           {
             description:
               'Компьютерное моделирование и информационные технологии',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            link: 'https://ciu.nstu.ru/kaf/pmt/study_activity/specs/spec_info?id_facultet_okso=3071&id_training_form=1&dist=0&id_spec=6744',
           },
           {
-            description: 'Программное обеспечение компьютерных систем и сетей',
-            link: 'https://www.nstu.ru/entrance/entrance_all/bachelor#',
+            description: 'Сетевые информационные технологии',
+            link: 'https://ciu.nstu.ru/kaf/asu/study_activity/specs/spec_info?id_facultet_okso=2995&id_training_form=1&dist=0&id_spec=6611',
           },
         ],
       },
@@ -572,7 +577,7 @@ export const results: ITestResult[] = [
           },
           {
             description: 'Филология',
-            link: '',
+            link: 'https://ciu.nstu.ru/kaf/filologii/study_activity/specs/spec_info?id_facultet_okso=3173&id_training_form=1&dist=0&id_spec=7283',
           },
         ],
       },
